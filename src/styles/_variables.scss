@@ -1,0 +1,11 @@
+$color-white: #ffffff;
+$color-primary: #cf2471; 
+$color-secondary: #71163f;
+$color-accent: #f662d6; 
+
+@mixin flexCenter ($direct) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direct;
+}

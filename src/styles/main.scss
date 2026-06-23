@@ -1,0 +1,80 @@
+// ENLACES DE SASS
+@use 'variables'as *;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif !important;
+  background-color: #ebeffe;
+  color: #000000;
+  min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+    color: $color-secondary;
+}
+.contenedor-tarjetas {
+    @include flexCenter(column);
+    width: 98%;
+    gap: 24px;
+    margin: 30px auto;
+}
+
+.tarjeta {
+    @include flexCenter(column);
+    gap: 16px;
+    width: 100%;
+    background-color: $color-white;
+    border-radius: 8px;
+        box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.1), 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+        text-align: center;
+
+    img {
+        width: 95%;
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+    h2 {
+        color: $color-primary;
+    }
+
+    h3 {
+        color: $color-accent;
+    }
+
+    p {
+        color: $color-secondary;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .contenedor-tarjetas {
+    flex-direction: row;
+}
+
+.tarjeta {
+    
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+}
