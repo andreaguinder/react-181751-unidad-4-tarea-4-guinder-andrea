@@ -1,4 +1,4 @@
-# Mi Tarjeta de Presentación en React - Mi Familia
+# Mi Tarjeta de Presentación en React
 
 ## Descripción del Proyecto
 Este proyecto es una aplicación web desarrollada con **React** y estructurada mediante **Vite**. Consiste en una página responsiva que renderiza tarjetas de presentación personalizadas utilizando un único componente funcional reutilizable (`Tarjeta.jsx`). 
@@ -22,25 +22,25 @@ Para clonar, instalar las dependencias y ejecutar este proyecto en tu entorno lo
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone <URL_DE_TU_REPOSITORIO_DE_GITHUB>
+   git clone <https://github.com/andreaguinder/react-18751-unidad-4-tarea-4-guinder-andrea.git>
 
 2. **Ingresar a la carpeta del proyecto**
 Muévete dentro del directorio que se creó con el nombre del proyecto:
     ```bash
-cd react-18751-unidad-4-tarea-4-guinder-andrea
+    cd react-18751-unidad-4-tarea-4-guinder-andrea
 
 3. **Instalar las dependencias**
 Instala todos los paquetes necesarios especificados en el package.json (incluyendo React y las herramientas de desarrollo como SASS):
     ```bash
-npm install
+    npm install
 
 4. **Ejecutar el servidor de desarrollo**
 Inicia el entorno de desarrollo local para ver la aplicación en el navegador:
     ```bash
-npm run dev
+    npm run dev
 
 5. Abrir en el navegador
-Una vez que la terminal te indique que el servidor está corriendo, abre tu navegador e ingresa a la siguiente dirección:
+Una vez que la terminal te indique que el servidor está corriendo, abre tu navegador e ingresa la dirección que te figure ejemplo:
 
 http://localhost:5173
 
