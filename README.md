@@ -52,8 +52,8 @@ En /src/proyecto adjunto capturas de pantalla de mobile y desktop de como se vis
 
 Estudiante: Andrea Guinder
 
-Curso: React (Comisión 18751)
+Curso: React (Comisión 181751)
 
 Unidad: Módulo 1 - Unidad 4
 
-Institución: UTN
+Institución: Universidad Tecnológica Nacional
